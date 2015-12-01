@@ -234,45 +234,6 @@ I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\deb
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
 I (..\..\..\..\..\..\Drivers\BSP\STM32F401RE\stm32f4xx_canon_bluenrg.h)(0x563720B4)
 F (..\..\..\BleInterface\Src\clock.c)(0x56370F98)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\clock.o --omf_browse stm32f4xx-nucleo\clock.crf --depend stm32f4xx-nucleo\clock.d)
-I (..\..\..\BleInterface\Inc\clock.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (..\..\Inc\cube_hal.h)(0x556C07EE)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x5501BA5D)
-I (..\..\Inc\stm32f4xx_hal_conf.h)(0x56555672)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x55CDB2DC)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55CDAF73)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5501BA54)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55093C04)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5501BA54)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5501BA5D)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x55CDAE0A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x56370D68)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.h)(0x563726CA)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller\bluenrg_gap_aci.c)(0x00000000)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_gap_aci.o --omf_browse stm32f4xx-nucleo\bluenrg_gap_aci.crf --depend stm32f4xx-nucleo\bluenrg_gap_aci.d)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller\bluenrg_gatt_aci.c)(0x00000000)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_gatt_aci.o --omf_browse stm32f4xx-nucleo\bluenrg_gatt_aci.crf --depend stm32f4xx-nucleo\bluenrg_gatt_aci.d)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller\bluenrg_hal_aci.c)(0x00000000)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_hal_aci.o --omf_browse stm32f4xx-nucleo\bluenrg_hal_aci.crf --depend stm32f4xx-nucleo\bluenrg_hal_aci.d)
@@ -328,11 +289,10 @@ I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x55
 I (..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.h)(0x563726CA)
 I (..\..\..\..\..\..\Drivers\BSP\STM32F401RE\stm32f4xx_canon_bluenrg.h)(0x563720B4)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\utils\gp_timer.c)(0x55657E7C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\gp_timer.o --omf_browse stm32f4xx-nucleo\gp_timer.crf --depend stm32f4xx-nucleo\gp_timer.d)
-I (..\..\..\BleInterface\Inc\clock.h)(0x55657E7C)
+I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\clock.h)(0x55657E7C)
 I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\gp_timer.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\clock.h)(0x55657E7C)
 I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\ble_status.h)(0x56026A62)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\utils\list.c)(0x55657E7C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\list.o --omf_browse stm32f4xx-nucleo\list.crf --depend stm32f4xx-nucleo\list.d)
 I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
@@ -346,152 +306,8 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 F (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface\bluenrg_itf_template.c)(0x55657E7C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_itf_template.o --omf_browse stm32f4xx-nucleo\bluenrg_itf_template.crf --depend stm32f4xx-nucleo\bluenrg_itf_template.d)
 I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface\bluenrg_itf_template.h)(0x55657E7C)
 F (..\..\..\BleInterface\Src\bluenrg_interface.c)(0x56371393)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_interface.o --omf_browse stm32f4xx-nucleo\bluenrg_interface.crf --depend stm32f4xx-nucleo\bluenrg_interface.d)
-I (..\..\..\BleInterface\Inc\bluenrg_interface.h)(0x55657E7E)
-I (..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS\stm32_bluenrg_ble.h)(0x56370929)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x5501BA5D)
-I (..\..\Inc\stm32f4xx_hal_conf.h)(0x56555672)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x55CDB2DC)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55CDAF73)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5501BA54)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x55093C04)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55093C04)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5501BA54)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5501BA5D)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x55CDAE0A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x56370D68)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.h)(0x563726CA)
-I (..\..\..\..\..\..\Drivers\BSP\STM32F401RE\stm32f4xx_canon_bluenrg.h)(0x563720B4)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\debug.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\ble_status.h)(0x56026A62)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\link_layer.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\list.h)(0x55657E7C)
 F (..\..\..\BleInterface\Src\bluenrg_sdk_api.c)(0x56372D09)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\bluenrg_sdk_api.o --omf_browse stm32f4xx-nucleo\bluenrg_sdk_api.crf --depend stm32f4xx-nucleo\bluenrg_sdk_api.d)
-I (..\..\..\BleInterface\Inc\bluenrg_sdk_api.h)(0x56372FA8)
-I (..\..\..\BleInterface\Inc\canon_hal.h)(0x55ED0173)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gatt_server.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\compiler.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\ble_status.h)(0x56026A62)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gap.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\link_layer.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gap_aci.h)(0x559B4AF2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gatt_aci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hci_const.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\clock.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\list.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\gp_timer.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_hal_aci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_aci_const.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal.h)(0x563711B1)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\sm.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\debug.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
 F (..\..\..\BleInterface\Src\demo_echo.c)(0x56557C48)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\demo_echo.o --omf_browse stm32f4xx-nucleo\demo_echo.crf --depend stm32f4xx-nucleo\demo_echo.d)
-I (..\..\Inc\demo.h)(0x565578BE)
-I (..\..\..\BleInterface\Inc\bluenrg_sdk_api.h)(0x56372FA8)
-I (..\..\..\BleInterface\Inc\canon_hal.h)(0x55ED0173)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal_types.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gatt_server.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\compiler.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\ble_status.h)(0x56026A62)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gap.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\link_layer.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gap_aci.h)(0x559B4AF2)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_gatt_aci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hci_const.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\clock.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\list.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\gp_timer.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_hal_aci.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\bluenrg_aci_const.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\hal.h)(0x563711B1)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\sm.h)(0x55657E7C)
-I (..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes\debug.h)(0x55657E7C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AEF5F2)
-I (..\..\Inc\main.h)(0x56557847)
-I (..\..\Inc\cube_hal.h)(0x556C07EE)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x5501BA5D)
-I (..\..\Inc\stm32f4xx_hal_conf.h)(0x56555672)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x55CDB2DC)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x55CDAF73)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5501BA54)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cm4.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmInstr.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmFunc.h)(0x55093C04)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include\core_cmSimd.h)(0x55093C04)
-I (..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5501BA54)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h)(0x5501BA5D)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h)(0x55CDAE0A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x5501BA5B)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x5501BA5C)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x56370D68)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x5501BA5A)
-I (..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x5501BA5D)
-I (..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.h)(0x563726CA)
-I (..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1.h)(0x55CDA670)
-I (..\..\..\..\..\..\Drivers\BSP\Components\Common\hum_temp.h)(0x5566CDC0)
-I (..\..\..\..\..\..\Drivers\BSP\Components\Common\imu_6axes.h)(0x5566D7BD)
-I (..\..\..\..\..\..\Drivers\BSP\Components\Common\magneto.h)(0x5566D78E)
-I (..\..\..\..\..\..\Drivers\BSP\Components\Common\pressure.h)(0x5566CDC0)
-I (..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3\lsm6ds3_SPI2.h)(0x56371704)
-I (..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_imu_6axes.h)(0x55C4603C)
-I (..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3\lsm6ds3.h)(0x556EE027)
-I (..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0\lsm6ds0.h)(0x556EE01A)
-I (..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_hum_temp.h)(0x556ECE86)
-I (..\..\..\..\..\..\Drivers\BSP\Components\hts221\hts221.h)(0x56557734)
-I (..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1\x_nucleo_iks01a1_pressure.h)(0x556ECEBE)
-I (..\..\..\..\..\..\Drivers\BSP\Components\lps25h\lps25h.h)(0x556EE002)
-I (..\..\..\..\..\..\Drivers\BSP\Components\lps25hb\lps25hb.h)(0x556EE00F)
 F (..\..\..\..\..\..\Drivers\BSP\Components\hts221\hts221.c)(0x56557734)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\..\Inc -I..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\Drivers\BSP\STM32F4xx-Nucleo -I..\..\..\..\..\..\Drivers\BSP\X_NUCLEO_IKS01A1 -I..\..\..\..\..\..\Drivers\BSP\Components\Common -I..\..\..\..\..\..\Drivers\BSP\Components\hts221 -I..\..\..\..\..\..\Drivers\BSP\Components\lis3mdl -I..\..\..\..\..\..\Drivers\BSP\Components\lps25h -I..\..\..\..\..\..\Drivers\BSP\Components\lps25hb -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds0 -I..\..\..\..\..\..\Drivers\BSP\Components\lsm6ds3 -I..\..\..\BleInterface\Inc -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\Interface -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\hci\controller -I..\..\..\..\..\..\Drivers\BSP\BlueNRG_MS -I..\..\..\..\..\..\Drivers\BSP\STM32F401RE -I..\..\..\..\..\..\Middlewares\ST\STM32_BlueNRG\SimpleBlueNRG_HCI\includes --C99 --gnu-I "D:\Work\CODE\ST\ST_GitHub\ST\HTSample\Embedded\CANNON IOT DEMO\STM32CubeExpansion_MEMS1_V1.3.0\Projects\Multi\Examples\FreeFallDetection\MDK-ARM\STM32F401RE-Nucleo\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="516" -D_RTE_ -DSTM32F401xE -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -DBLUENRG_MS-o stm32f4xx-nucleo\hts221.o --omf_browse stm32f4xx-nucleo\hts221.crf --depend stm32f4xx-nucleo\hts221.d)
 I (..\..\..\..\..\..\Drivers\BSP\Components\hts221\hts221.h)(0x56557734)
 I (..\..\..\..\..\..\Drivers\BSP\Components\Common\hum_temp.h)(0x5566CDC0)
